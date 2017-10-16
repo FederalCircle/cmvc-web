@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <base href="/">
+    <title>Cachoeirinha</title>
+
+    <!-- CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+
+    <!-- build:css style/vendor.css -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--endbuild -->
+
+    <!-- build:css style/app.css -->
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/style-new.css" type="text/css" rel="stylesheet">
+    <!-- endbuild -->
+</head>
+<body ng-app="cmvc-web">
+    <div ui-view></div>
+
+    <!-- CDN -->
+    <script src="https://use.fontawesome.com/fc8ae1088c.js"></script>
+
+    <!-- build:js scripts/vendor.js -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/framework.js -->
+    <script src="assets/js/jquery-slider.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/app.js -->
+    <script src="cmvc-web.module.js"></script>
+    <script src="cmvc-web.config.js"></script>
+    <script src="cmvc-web.run.js"></script>
+    <script src="modules/common/common.module.js"></script>
+    <script src="modules/common/common.config.js"></script>
+    <script src="modules/common/common.run.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/common.js -->
+    <script src="modules/common/controllers/main.js"></script>
+    <script src="modules/common/controllers/home.js"></script>
+    <script src="modules/common/controllers/ouvidoria.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
