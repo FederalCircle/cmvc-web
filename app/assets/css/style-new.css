@@ -2,6 +2,10 @@
 	border: 1px solid red;
 }
 
+body {
+	background: #f2f2f2;
+}
+
 
 #noticias, #tv{
 	margin: 0px 0px 20px 0px;
@@ -34,6 +38,13 @@
 	color: #28b740;
 }
 
+.manutencao {
+	font-size: 34px;
+    font-weight: 100;
+    margin-top: 200px;
+    color: #CCD;
+}
+
 .date {
 	color: #666;
 	font-size: 13px;
@@ -45,18 +56,19 @@
 }
 
 .box-logo {
-	background: #1D976C;  /* fallback for old browsers */
+	background: #174c00;  /* fallback for old browsers */
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .box-logo h1 {
 	color: #fff;
-	opacity: 0.6;
-	font-family: 'Roboto', sans-serif;
-	margin-top: 25px;
-	margin-left: 200px;
-	text-shadow: 2px 2px #333;
-
+    font-size: 43px;
+    font-weight: 300;
+    opacity: 0.9;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 18px;
+    margin-left: 200px;
+    text-shadow: 2px 2px #333;
 }
 
 .weather-title {
@@ -82,12 +94,27 @@
 }
 
 .box-logo p {
-	color: #fff;
-	opacity: 1;
-	font-family: 'Roboto', sans-serif;
-	margin-top: -8px;
-	margin-left: 200px;
-	font-size: 16px;
+	color: #f0f0f0;
+    font-size: 27px !important;
+    opacity: 1;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -10px;
+    margin-left: 205px;
+}
+
+.disabled {
+	background: #ccc;
+	opacity: 0.3;
+	margin-left: 10px !important;
+}
+
+.disabled a:hover, .disabled a:focus, .disabled a:active {
+	background: #ccc !important;
+	color: black !important;
+}
+.disabled a {
+	cursor: not-allowed;
 }
 
 .saiba-mais {
@@ -153,7 +180,7 @@
 
 
 .slider-wrapper h2, .slider-wrapper2 h2 {
-	color: #51c28e;
+	color: #2c9400;
     font-size: 15px;
     padding: 5px;
     font-weight: 400;
@@ -215,7 +242,7 @@
 }
 
 .control-buttons li.active, .control-buttons2 li.active {
-	background: #51C28E;
+	background: #2c9400;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
@@ -366,6 +393,15 @@ body {
 	text-decoration: none;
 	opacity: 0.7;
 	
+}
+
+
+.img-logo {
+	width: 140px;
+    margin-top: -6px;
+    float: left;
+    margin-left: 50px;
+}
 }
 
 .testee {
