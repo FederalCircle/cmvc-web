@@ -25,30 +25,47 @@
     <!-- CDN -->
     <script src="https://use.fontawesome.com/fc8ae1088c.js"></script>
 
-    <!-- build:js scripts/vendor.js -->
-    <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <!-- build:js scripts/vendor.general.js -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/firebase/firebase-app.js"></script>
+    <script src="bower_components/firebase/firebase-auth.js"></script>
     <!-- endbuild -->
 
-    <!-- build:js scripts/framework.js -->
+    <!-- build:js scripts/vendor.angular.js -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angularfire/dist/angularfire.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/app.framework.js -->
     <script src="assets/js/jquery-slider.js"></script>
     <!-- endbuild -->
 
-    <!-- build:js scripts/app.js -->
+    <!-- build:js scripts/app.modules.js -->
     <script src="cmvc-web.module.js"></script>
     <script src="cmvc-web.config.js"></script>
     <script src="cmvc-web.run.js"></script>
+    <script src="settings/settings.js"></script>
     <script src="modules/common/common.module.js"></script>
     <script src="modules/common/common.config.js"></script>
     <script src="modules/common/common.run.js"></script>
+    <script src="modules/ouvidoria/ouvidoria.module.js"></script>
+    <script src="modules/ouvidoria/ouvidoria.config.js"></script>
+    <script src="modules/ouvidoria/ouvidoria.run.js"></script>
     <!-- endbuild -->
 
-    <!-- build:js scripts/common.js -->
+    <!-- build:js scripts/app.common.js -->
     <script src="modules/common/controllers/main.js"></script>
     <script src="modules/common/controllers/home.js"></script>
-    <script src="modules/common/controllers/ouvidoria.js"></script>
+    <script src="modules/common/controllers/manutencao.js"></script>
+    <script src="modules/common/factories/firebase.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/app.ouvidoria.js -->
+    <script src="modules/ouvidoria/controllers/cadastro.js"></script>
+    <script src="modules/ouvidoria/controllers/consulta.js"></script>
+    <script src="modules/ouvidoria/services/message.js"></script>
     <!-- endbuild -->
 </body>
 </html>
