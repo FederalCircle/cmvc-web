@@ -1,10 +1,10 @@
 (function() {
     'use strict';
 
-    config.$inject = ['$locationProvider'];
-    function config($locationProvider) {
+    config.$inject = ['$locationProvider', 'settings'];
+    function config($locationProvider, settings) {
         // Remove '#' from URL
-        $locationProvider.html5Mode(true);
+        $locationProvider.html5Mode(settings.html5Mode);
     }
 
     angular.module('cmvc-web').config(config);

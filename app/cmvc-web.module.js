@@ -3,7 +3,9 @@
 
     var dependencies = [
         'ui.router',
-        'cmvc-web.common'
+        'firebase',
+        'cmvc-web.common',
+        'cmvc-web.ouvidoria'
     ];
 
     angular.module('cmvc-web', dependencies);
