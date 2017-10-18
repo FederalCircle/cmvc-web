@@ -6,5 +6,5 @@
         var vm = this;
     }
 
-    angular.module('cmvc-web.common').controller('ManutencaoController', ManutencaoController);
+    angular.module('cmvc-web.common').controller('ManutencaoController', manutencaoController);
 })();
