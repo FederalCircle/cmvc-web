@@ -20,5 +20,8 @@
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
     "firebase": "^4.6.0"
+  },
+  "resolutions": {
+    "firebase": "3.x.x"
   }
 }
