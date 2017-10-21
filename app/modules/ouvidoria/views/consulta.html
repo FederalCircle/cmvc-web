@@ -1,3 +1,11 @@
 <div>
 	<h1>Consulta</h1>
+	<div>
+		<div ng-repeat="message in vm.messages track by $index">
+			<span ng-bind="message.name"></span><br>
+			<span ng-bind="message.email"></span><br>
+			<span ng-bind="message.text"></span>
+			<hr>
+		</div>
+	</div>
 </div>

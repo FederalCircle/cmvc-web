@@ -5,6 +5,7 @@
 		var factory = {
 			ref: ref
 		};
+		return factory;
 
 		///// Functions /////
 		function ref(base) {

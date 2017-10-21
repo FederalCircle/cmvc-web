@@ -1,3 +1,12 @@
 <div>
-	<h1>Cadastro</h1>
+    <h1>Cadastro</h1>
+    <div>
+        Nome: <input type="text" ng-model="vm.message.name">
+        Email: <input type="text" ng-model="vm.message.email">
+        <br>
+        Mensagem:
+        <br>
+        <textarea ng-model="vm.message.text"></textarea>
+    </div>
+    <button ng-click="vm.sendMessage()">Enviar</button>
 </div>
