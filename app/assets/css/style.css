@@ -80,7 +80,7 @@ p {
 	margin-bottom:20px;
 }
 a {
-	color:#174c00;
+	color:darkcyan;
 	transition-duration:0.5s;
 	-moz-transition-duration:0.5s;
 	-o-transition-duration:0.5s;
@@ -91,7 +91,7 @@ a {
 a:hover, a:focus {
 	text-decoration:none;
 	outline:none;
-	color:#174c00;
+	color:darkcyan;
 }
 ul, ol {
 	margin:0 auto 20px;
@@ -150,7 +150,7 @@ img {
 	1.2. Button
 -------------------------*/
 .btn {
-	background: #174c00 none repeat scroll 0 0;
+	background: darkcyan none repeat scroll 0 0;
     border: medium none;
     border-radius: 0;
     color: #ffffff;
@@ -173,7 +173,7 @@ img {
 .btn:hover, .btn:focus {
 	color: #ffffff;
 	outline:none;
-	background:#174c00;
+	background:darkcyan;
 	border-radius:3px;
 }
 
@@ -182,7 +182,7 @@ img {
 	font-size:17px;
 }
 .btn-link:hover, .btn-link:focus {
-	color:#174c00;
+	color:darkcyan;
 }
 
 
@@ -381,7 +381,7 @@ textarea {
 	padding-top: 5px;
 }
 input[type="submit"], form button {
-	background: #174c00 none repeat scroll 0 0;
+	background: darkcyan none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 0;
 	color: #ffffff;
@@ -401,7 +401,7 @@ input[type="submit"], form button {
 input[type="submit"]:hover, form button:hover {
 	color: #ffffff;
 	outline:none;
-	background:#174c00;
+	background:darkcyan;
 	border-radius:3px;
 }
 
@@ -440,12 +440,10 @@ table thead th, table thead td {
 	color:#fff;
 }
 .primary-bg {
-	background: #174c00;
+	background: darkcyan;
 	color:#fff;
 }
-.section-padding {
-	padding: 40px 0;
-}
+
 
 
 /*--------------------
@@ -554,7 +552,7 @@ table thead th, table thead td {
 header .navbar-default .navbar-nav li.active a, 
 header .navbar-default .navbar-nav li.active a:hover,
 header .navbar-default .navbar-nav li.active a:focus {
-  background: #174c00;
+  background: darkcyan;
   border: none;
   box-shadow: none;
   color: #fff;
@@ -627,7 +625,7 @@ header .navbar-default .navbar-nav li ul.children li a {
 header .navbar-default .navbar-nav li ul.sub-menu li a:hover,
 header .navbar-default .navbar-nav li ul.children li a:hover, 
 .navbar.navbar-default .nav.navbar-nav li > a:hover {
-  background: #174c00;
+  background: darkcyan;
   color: #fff;
 }
 header .navbar-default .navbar-nav li ul.sub-menu li:last-child,
@@ -958,7 +956,7 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	background:rgba(255, 255, 255, 0.6);
 }
 .owl-dot.active span {
-	background: #174c00 none repeat scroll 0 0;
+	background: darkcyan none repeat scroll 0 0;
 }
 
 
@@ -1001,7 +999,7 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	text-decoration:underline;
 }
 #featured_post_style2 .post_cats a {
-	background:#174c00;
+	background:darkcyan;
 	color:#fff;
 	padding:4px 12px;	
 }
@@ -1059,7 +1057,7 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	bottom:60px;
 }
 #featured_post_style3 .post_cats a {
-	background:#174c00;
+	background:darkcyan;
 	color:#fff;
 	padding:4px 12px;	
 	font-size:14px;
@@ -1082,7 +1080,7 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	 4. Blog-Posts
 ===========================*/
 .post_info {
-	background-color: #ffffff;
+	background-color: #efefef;
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.02);
 	margin-bottom: 30px;
 	padding: 20px 20px 30px;
@@ -1128,7 +1126,7 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	z-index:1;
 }
 .post-title a:hover {
-	color:#174c00;
+	color:darkcyan;
 }
 .post_share {
 	position:absolute;
@@ -1164,7 +1162,7 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	margin:0px;
 }
 .share_url li a:hover {
-	color:#174c00;
+	color:darkcyan;
 }
 .post_info p {
 	color:#666;
@@ -1204,7 +1202,7 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	font-size:12px;
 }
 .post_meta ul li a:hover {
-	color:#174c00;
+	color:darkcyan;
 }
 .post_meta ul li a i {
 	margin:0 2px 0 0;
@@ -1220,7 +1218,7 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	font-size:12px;
 }
 .post_cats a:hover {
-	color:#174c00;
+	color:darkcyan;
 	text-decoration:underline;
 }
 .grid_style:nth-child(2n+1) {
@@ -1279,7 +1277,7 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	letter-spacing:2px;
 }
 .link_post {
-	background-color: #174c00;
+	background-color: darkcyan;
 	color: #fff;
 	margin: 0;
 	position: relative;
@@ -1368,6 +1366,9 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	float: right;
 	box-shadow:none;
 	margin:0 auto;
+	margin-right: -5px;
+	margin-left: -5px;
+	margin-top: 13px;
 }
 .list_style .link_post,  .list_style .quote_post {
 	min-height:300px;
@@ -1425,7 +1426,7 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	background:#fff;
 }
 .pagination ul li .current, .pagination ul li .page-numbers:hover {
-	background:#174c00;
+	background:darkcyan;
 	color:#fff;
 }
 
@@ -1436,7 +1437,6 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 .sidebar_widget {
 	padding-left:14px;
 	padding-right:14px;
-	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.03);
 	margin-bottom: 30px;
 }
 .sidebar_title {
@@ -1498,7 +1498,7 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	font-size:15px;
 }
 .sidebar_widget >ul > li > a:hover {
-	color:#174c00;
+	color:darkcyan;
 }
 .tagcloud a {
 	display:inline-block;
@@ -1509,8 +1509,8 @@ header.header_style2 .navbar-default .navbar-nav li ul.children li {
 	margin:0 4px 4px 0;
 }
 .tagcloud a:hover {
-	background:#174c00;
-	border-color:#174c00;
+	background:darkcyan;
+	border-color:darkcyan;
 	color:#fff;
 }
 
@@ -1584,7 +1584,7 @@ blockquote {
 	box-shadow:0 5px 5px rgba(0, 0, 0, 0.03);
 }
 .highlight {
-	color: #174c00;
+	color: darkcyan;
 }
 
 
@@ -1703,7 +1703,7 @@ blockquote {
 	font-style: italic;
 }
 .comment-metadata a:hover {
-	color:#174c00;
+	color:darkcyan;
 }
 .comment-content, .comment .reply {
 	padding-top: 0;
@@ -1742,8 +1742,8 @@ blockquote {
   padding: 5px 15px;
 }
 .post_tags a:hover {
-	background:#174c00;
-	border-color:#174c00;
+	background:darkcyan;
+	border-color:darkcyan;
 	color:#fff;
 }
 .post_detail .post_share {
@@ -1873,7 +1873,7 @@ blockquote {
 	font-size:14px;
 }
 .footer_followus ul li a:hover {
-	background:#174c00;
+	background:darkcyan;
 	color:#fff;
 }
 .footer_bottom {
@@ -1884,9 +1884,10 @@ blockquote {
 	8.1. Footer-style-1
 -------------------------*/
 .footer_widget {
+	margin-left: -20px;
+    margin-right: -25px;
     overflow: hidden;
-    padding: 51px;
-    text-align: center;
+	text-align: center;
 }
 .instagram_img ul {
 	padding:0px;
@@ -2010,7 +2011,7 @@ blockquote {
 	margin:0 12px;
 }
 .footer_links ul li a:hover {
-	color:#174c00;
+	color:darkcyan;
 }
 #footer.footer_style2 {
   border-top: 30px solid #ffffff;
@@ -2074,7 +2075,7 @@ blockquote {
 }
 .recent_post .post_cats a:hover, 
 .recent_post .post-title a:hover {
-	color:#174c00;
+	color:darkcyan;
 }
 .recent_post:last-child {
 	border:0px;
@@ -2169,7 +2170,7 @@ blockquote {
 	color:#fff;
 }
 .breadcrumb ul li a:hover {
-	color:#174c00;
+	color:darkcyan;
 }
 
 
@@ -2329,7 +2330,7 @@ blockquote {
 	padding:20px 40px;
 	display:inline-block;
 	text-align:center;
-	background:#174c00;
+	background:darkcyan;
 	margin:10px auto;
 }
 .countdown-period {

@@ -1,113 +1,118 @@
 <!-- Header -->
-<header id="header">
-    <div class="header_top secondary-bg">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="header_nav">  
-                        <li><a href="#">Acessibilidade</a></li>
-                    </ul>
+
+<nav id="sidebar" class="sidenav">
+    <div class="scroll-wrapper sidebar-wrapper" style="position: relative;">
+        <div class="sidebar-wrapper scroll-content scroll-scrolly_visible" style="height: auto; margin-bottom: 0px; margin-right: 0px; max-height: 588px;">
+            <div class="profile-sidebar">
+                <div class="avatar">
+                    <img src="../assets/img/logotipo.png" alt="">
                 </div>
-                <ul class="header_nav social-icons">
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                </ul>
+                <p> Casa Vereador Cícero Dias </p>
+            </div>
+            <ul class="main-menu" id="menus">
+                <li>
+                    <a class="pr-mn collapsed" data-toggle="collapse" ui-sref="main.home">
+                        <span class="icon ti-home"></span>Página Inicial
+                    </a>
+                </li>
+                <li>
+                    <a class="pr-mn collapsed" data-toggle="collapse" href="#menu1" aria-expanded="true">
+                        <span class="icon ti-notepad"></span>Instituição
+                    </a>
+                    <ul id="menu1" class="collapse" data-parent="#menus">
+                        <li>
+                            <a href="#">Opção 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Opção 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Opção 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="pr-mn collapsed" data-toggle="collapse" href="#menu2" aria-expanded="true">
+                        <span class="icon ti-notepad"></span>Vereadores
+                    </a>
+                    <ul id="menu2" class="collapse" data-parent="#menus">
+                        <li>
+                            <a href="#">Opção 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Opção 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Opção 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="pr-mn collapsed" data-toggle="collapse" href="#menu3"
+                        aria-expanded="true">
+                        <span class="icon ti-notepad"></span>Atividades
+                    </a>
+                    <ul id="menu3" class="collapse" data-parent="#menus">
+                            <li>
+                                    <a href="#">Opção 1</a>
+                                </li>
+                                <li>
+                                    <a href="#">Opção 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Opção 3</a>
+                                </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="scroll-element scroll-x scroll-scrolly_visible">
+            <div class="scroll-element_outer">
+                <div class="scroll-element_size"></div>
+                <div class="scroll-element_track"></div>
+                <div class="scroll-bar" style="width: 89px;"></div>
+            </div>
+        </div>
+        <div class="scroll-element scroll-y scroll-scrolly_visible">
+            <div class="scroll-element_outer">
+                <div class="scroll-element_size"></div>
+                <div class="scroll-element_track"></div>
+                <div class="scroll-bar" style="height: 350px; top: 0px;"></div>
             </div>
         </div>
     </div>
-    <div class="header_top box-logo">
-        <div class="container-fluid">
-            <div class="row">
-                <img src="../assets/img/logotipo.png" class="img-logo">
+</nav>
+
+<header id="page-header" class="pageheader">
+    <div class="content-header">
+        <div class="navbar-header">
+       
+            <div class="app-title">
+                <!-- LOGO -->
                 <h1> Câmara Municipal de Cachoeirinha</h1>
-                <p>  Casa Vereador Cícero Cintra</p>
             </div>
-        </div>
-    </div>
-    <!-- Navigation -->
-    <nav id="navigation_bar" class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button id="menu_slide" data-target="#navigation" aria-expanded="false" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+            <div class="mobile-nav">
+                <button class="btn" type="button" id="mobileBtn">
+                    <i class="ti-layout-grid2-alt"></i>
                 </button>
             </div>
-            <div class="collapse navbar-collapse" id="navigation">
-                <ul class="nav navbar-nav">
-                    <li class="menu-item active">
-                        <a ui-sref="main.home">Página Inicial</a>
-                    </li>
-                    <li class="menu-item menu-item-has-children disabled">
-                        <a href="#">Instituição</a>
-                        <!-- <ul class="sub-menu">
-                            <li><a href="#">Presidente da Câmara</a></li>
-                            <li><a href="#">Organograma</a></li>
-                            <li><a href="#">Recursos Humanos</a></li>
-                            <li><a href="#">Comissões da Casa</a></li>
-                            <li><a href="#">Lideranças Partidárias</a></li>
-                        </ul> -->
-                    </li>
-                    <li class="menu-item menu-item-has-children disabled">
-                        <a href="#">Vereadores</a>
-                        <!-- <ul class="sub-menu">
-                            <li><a href="#">Legislatura</a></li>
-                            <li><a href="#">Frequência</a></li>
-                        </ul> -->
-                    </li>
-                    <li class="menu-item menu-item-has-children disabled">
-                        <a href="#">Atividade Legislativa</a>
-                        <!-- <ul class="sub-menu">
-                            <li><a href="#">Agenda da Câmara</a></li>
-                            <li><a href="#">Sessão Plenária</a></li>
-                            <li><a href="#">Comissões</a></li>
-                            <li><a href="#">Audiências Públicas</a></li>
-                            <li><a href="#">CPIS</a></li>
-                            <li><a href="#">Frentes Parlamentares</a></li>
-                            <li><a href="#">Fóruns</a></li>
-                            <li><a href="#">Lideranças</a></li>
-                            <li><a href="#">Projetos apresentados (desde 1948)</a></li>
-                            <li><a href="#">Mesa Diretora</a></li>
-                            <li><a href="#">Corregedoria</a></li>
-                            <li><a href="#">Gabinetes</a></li>
-                            <li><a href="#">Regimento Interno</a></li>
-                            <li><a href="#">Legislação</a></li>
-                        </ul> -->
-                    </li>
-                    <li class="menu-item menu-item-has-children disabled">
-                        <a href="#">Fale Conosco</a>
-                        <!-- <ul class="sub-menu">
-                            <li><a href="#">Formulário de contato</a></li>
-                            <li><a href="#">Visite a Câmara</a></li>
-                            <li><a href="#">Telefones</a></li>
-                            <li><a href="#">Ouvidoria</a></li>
-                        </ul> -->
-                    </li>
-                </ul>
-            </div>
         </div>
-    </nav>
-    <!-- Navigation end -->
+
+    </div>
 </header>
 <!-- /Header -->
 
 <div ui-view></div>
 
 <!-- Footer -->
-<footer id="footer">
-    <div class="container">
-        <div class="footer_bottom">
-            <div class="copyright_text">
-                <p>© <a>2017 RS</a> - Todos os direitos reservados.</p>
+<footer id="page-footer" class="pagefooter">
+    <div class="content">
+        <div class="row">
+            <div class="copyright col-sm-12 col-md-12 col-lg-6">
+                © Cachoeirinha - 2017
             </div>
+
         </div>
     </div>
 </footer>
 <!-- /Footer -->
-
-<!--Back-to-top-->
-<div id="back-top" class="back-top">
-    <a href="#top"><i class="fa fa-angle-up" aria-hidden="true"></i> </a>
-</div>
-<!--/Back-to-top-->
