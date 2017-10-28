@@ -1,11 +1,23 @@
-<div>
-	<h1>Consulta</h1>
-	<div>
-		<div ng-repeat="message in vm.messages track by $index">
-			<span ng-bind="message.name"></span><br>
-			<span ng-bind="message.email"></span><br>
-			<span ng-bind="message.text"></span>
-			<hr>
+<main id="main-container">
+	<div class="content">
+
+		<a ui-sref="main.ouvidoria.cadastro" class="btn btn-alt-primary btn-lg btn-block">Cadastrar Nova Solicitação</a>
+		
+		<hr/>
+
+		<div>
+			<h1>Consulta</h1>
+			<div>
+				<div ng-repeat="message in vm.messages track by $index">
+					<span ng-bind="message.name"></span>
+					<br>
+					<span ng-bind="message.email"></span>
+					<br>
+					<span ng-bind="message.text"></span>
+					<hr>
+				</div>
+			</div>
 		</div>
+
 	</div>
-</div>
+</main>
