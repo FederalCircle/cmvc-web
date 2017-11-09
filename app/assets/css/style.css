@@ -436,7 +436,7 @@ table thead th, table thead td {
 	1.7. Section-background-color & sectino-heading
 -------------------------------------------------------------------*/
 .secondary-bg {
-	background-color:#1e2127;
+	background-color:#333;
 	color:#fff;
 }
 .primary-bg {
@@ -445,6 +445,8 @@ table thead th, table thead td {
 }
 .section-padding {
 	padding: 40px 0;
+	background: #f9f9f9;
+	border-radius: 20px;
 }
 
 
@@ -507,8 +509,6 @@ table thead th, table thead td {
 	 2. Header
 ===========================*/
 #header {
-	background: #ffffff none repeat scroll 0 0;
-	box-shadow: 0 0 11px rgba(0, 0, 0, 0.1);
 	position: relative;
 	z-index: 22;
 }
@@ -519,18 +519,19 @@ table thead th, table thead td {
 --------------------------------*/
 
 .navbar.navbar-default {
-	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	background:	#1D976C;
 	border: 0 none;
 	border-radius: 0;
 	margin: 0 auto;
 	min-height: inherit;
-	padding-bottom: 16px;
+	padding-bottom: 11px;
+    margin-top: 3px;
 
 }
 .navbar.navbar-default .nav.navbar-nav {
 	float:right;
 	margin-right:-15px;
-	margin-top: 13px;
+	margin-top: 9px;
 }
 .navbar-default .nav.navbar-nav li {
 	margin:0;
@@ -541,10 +542,10 @@ table thead th, table thead td {
 	margin-right:0px;
 }
 .navbar-default .nav.navbar-nav li a {
-  color: #111111;
+  color: #e2e2e2;
   display: block;
-  font-size: 16px;
-  padding: 10px 30px 10px 30px;
+  font-size: 14px;
+  padding: 8px 28px 6px 28px;
   text-transform:uppercase;
 }
 
@@ -554,12 +555,13 @@ table thead th, table thead td {
 header .navbar-default .navbar-nav li.active a, 
 header .navbar-default .navbar-nav li.active a:hover,
 header .navbar-default .navbar-nav li.active a:focus {
-  background: #174c00;
+  background: #fff;
   border: none;
   box-shadow: none;
-  color: #fff;
+  color: #1D976C;
   outline: 0;  
 }
+
 header .navbar-default .navbar-nav li.menu-item-has-children > a::before {
   content: "\f107";
   font-family: "FontAwesome";
@@ -624,12 +626,17 @@ header .navbar-default .navbar-nav li ul.children li a {
 .dropdown-menu {
 	border:0px;
 }
-header .navbar-default .navbar-nav li ul.sub-menu li a:hover,
-header .navbar-default .navbar-nav li ul.children li a:hover, 
+
 .navbar.navbar-default .nav.navbar-nav li > a:hover {
-  background: #174c00;
+  opacity: 1;
   color: #fff;
 }
+
+header .navbar-default .navbar-nav li ul.sub-menu li a:hover,
+header .navbar-default .navbar-nav li ul.children li a:hover {
+ color: #1D976C !important;
+}
+
 header .navbar-default .navbar-nav li ul.sub-menu li:last-child,
 header .navbar-default .navbar-nav li ul.children li:last-child {
   border-bottom: none;
@@ -647,7 +654,7 @@ header .navbar-default .navbar-nav li ul.children ul.children {
 -------------------------------*/
 
 .header_top {
-	padding:8px 0;
+	padding:6px 0;
 }
 .follow_us {
 	padding:0px;
@@ -703,7 +710,6 @@ header .navbar-default .navbar-nav li ul.children ul.children {
 .header_nav li a {
 	display:block;
 	color:#fff;
-	margin:0 0 0 10px;
 	font-size:14px;
 	transition-duration:0.3s;
 	-moz-transition-duration:0.3s;
@@ -712,10 +718,8 @@ header .navbar-default .navbar-nav li ul.children ul.children {
 	-ms-transition-duration:0.3s;
 	opacity:0.5;
 }
-.header_nav li a:hover {
-	opacity:1;
-	color:#fff212;
-}
+
+
 
 
 /*-----------------------

@@ -32,7 +32,7 @@
         angular.forEach(routes, function(route, key){
             $stateProvider.state(route.state, route.config);
         });
-        $urlRouterProvider.otherwise('/manutencao');
+        $urlRouterProvider.otherwise('/home');
     }
 
     angular.module('cmvc-web.common').config(config);
